@@ -1,0 +1,9 @@
+# This is a tutorial for Creating R packages.
+
+install.packages("devtools") #The aim of devtools is to make package development easier by providing R functions that simplify common tasks.
+install.packages("roxygen2") #The goal of roxygen2 is to make documenting your code as easy as possible.
+
+library(devtools)
+install_github("devtools","hadley")
+
+
