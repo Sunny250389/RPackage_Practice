@@ -4,6 +4,12 @@ install.packages("devtools") #The aim of devtools is to make package development
 install.packages("roxygen2") #The goal of roxygen2 is to make documenting your code as easy as possible.
 
 library(devtools)
-install_github("devtools","hadley")
+install_github("devtools","hadley") #The devtools package provides install_github() that enables installing packages from GitHub.
+
+#Getting this error
+'ERROR: dependency 'digest' is not available for package 'devtools'
+* removing 'C:/Users/Sunny/Documents/R/win-library/3.4/devtools'
+Installation failed: Command failed (1)'
+
 
 
